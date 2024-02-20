@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# CodeGuruTutorials Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the CodeGuruTutorials Website! This website showcases a variety of projects developed with JS, ReactJS and of course our beloved HTML and CSS.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The CodeGuruTutorials Projects Display Website provides a comprehensive view of diverse projects, including web applications, games, and more. Each project is made simple for learning for beginner-level programmers.
 
-### `npm start`
+## Projects
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. React Calculator
+- Description: A simple calculator developed using React.js, offering basic arithmetic operations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Tic Tac Toe Game
+- Description: A classic Tic Tac Toe game built with React.js, featuring a clean interface and interactive gameplay.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. Pomodoro Clock
+- Description: A productivity tool implementing the Pomodoro Technique with customizable work and break intervals.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4. JavaScript Games Website
+- Description: A collection of small games created with JavaScript, showcasing various gaming concepts.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 5. Travel Advisor Website
+- Description: A travel advisor website offering information on hotels, restaurants, and attractions using Google Maps and external APIs.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 6. React Quiz Website
+- Description: A quiz website developed entirely with React.js, providing an interactive quiz-taking experience.
 
-### `npm run eject`
+### Etc.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Follow the steps below to set up and explore these projects locally:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository: `git clone [[repository_url]](https://github.com/kookiezwthtea/code-guru-tutorials.git)`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feel free to explore, contribute, and use these projects as a reference for your own development endeavors.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding!
