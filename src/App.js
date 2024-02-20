@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Home from './Pages/Index';
+import NotFoundPage from './Pages/NotFoundPage';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ProjectDetail from './Projects/Project-detail';
+import JavascriptProjects from './Pages/JavaScriptProjects';
+import ReactProjects from './Pages/ReactProjects';
+import Terms from './Pages/Terms';
+import Privacy from './Pages/Privacy';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path='/'
+            element={<Home />} />
+          <Route
+            path='/jsprojects'
+            element={<JavascriptProjects />} />
+          <Route
+            path='/reactprojects'
+            element={<ReactProjects />} />
+          <Route
+            path='/about'
+            element={<About />} />
+          <Route
+            path='/contact'
+            element={<Contact />} />
+          <Route
+            path='/*'
+            element={<NotFoundPage />} />
+
+          <Route path="/project/:id" element={<ProjectDetail />} />
+
+          <Route
+            path='/terms'
+            element={<Terms />} />
+
+          <Route
+            path='/privacy'
+            element={<Privacy />} />
+
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

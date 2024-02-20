@@ -1,0 +1,49 @@
+.parallax-container {
+  position: relative;
+}
+
+.search-component {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; 
+}
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-results {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  border: 1px solid #ccc;
+  background-color: rgb(128, 225, 247);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100; 
+}
+
+.search-results.show-results {
+  display: block;
+}
+
+.search-result-item {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.search-result-item:hover {
+  background-color: #33c5ff;
+}
+
